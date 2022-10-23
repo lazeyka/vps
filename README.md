@@ -29,6 +29,10 @@
 - d) iptables-save > /etc/iptables/rules.v4
 - e) reboot
 
+## Усанавливем пакет WireGuard на роутере с OpenWRT
+- opkg update
+- opkg install wireguard-tools luci-app-wireguard qrencode
+
 ## Усанавливем пакет для просмотра загрузка процесора на роутере с OpenWRT
 - opkg update
 - opkg install htop
