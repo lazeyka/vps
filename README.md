@@ -1,10 +1,10 @@
 # vps
 
-curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
+curl -O https://raw.githubusercontent.com/lazeyka/openvpn-install/master/openvpn-install.sh
 chmod +x openvpn-install.sh
 ./openvpn-install.sh
 
-curl -O https://raw.githubusercontent.com/angristan/wireguard-install/master/wireguard-install.sh
+curl -O https://raw.githubusercontent.com/lazeyka/wireguard-install/master/wireguard-install.sh
 chmod +x wireguard-install.sh
 ./wireguard-install.sh
 
