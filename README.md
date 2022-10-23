@@ -46,6 +46,12 @@ iptables-save > /etc/iptables/rules.v4
 reboot
 ```
 
+## Setup packets OpenVPN on router with OpenWRT
+```
+opkg update
+opkg install openvpn-openssl luci-app-openvpn
+```
+
 ## Setup packets WireGuard on router with OpenWRT
 ```
 opkg update
