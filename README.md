@@ -1,5 +1,8 @@
 # vps
 
+# Link on video tutorial
+https://disk.yandex.com/d/9fl35rpQX8ofjw
+
 ## Обновляем VPS сервер
 - apt update && apt upgrade -y
 
