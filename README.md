@@ -6,10 +6,10 @@ https://www.kamatera.com/express/compute/?tcampaign=35345_379441_VT131003&bta=35
 # Link on video tutorial
 https://disk.yandex.com/d/9fl35rpQX8ofjw
 
-## Обновляем VPS сервер
+## Update VPS server
 - apt update && apt upgrade -y
 
-## Устанавливаем необходимые пакеты, если сервер не распознает
+## Setup necessary packets by need
 - apt install curl
 
 ## openvpn-install
@@ -22,7 +22,7 @@ https://disk.yandex.com/d/9fl35rpQX8ofjw
 - chmod +x wireguard-install.sh
 - ./wireguard-install.sh
 
-## Повторняя генирация QR-кода для созданого клиента
+## QR сode regeneration for the created client
 - ls
 - qrencode -t ansiutf8 < wg-client.conf
 
@@ -35,12 +35,12 @@ https://disk.yandex.com/d/9fl35rpQX8ofjw
 - d) iptables-save > /etc/iptables/rules.v4
 - e) reboot
 
-## Усанавливем пакет WireGuard на роутере с OpenWRT
+## Setup packets WireGuard on router with OpenWRT
 - opkg update
 - opkg install wireguard-tools luci-app-wireguard qrencode
 
-## Усанавливем пакет для просмотра загрузка процесора на роутере с OpenWRT
+## Setup packets on router with OpenWRT for see CPU load
 - opkg update
 - opkg install htop
-### Запускаем просмотр агрузка процесора на роутере с OpenWRT
+### Starting htop for see CPU load
 - htop
