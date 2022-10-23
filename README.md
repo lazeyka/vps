@@ -17,14 +17,14 @@ apt update && apt upgrade -y
 apt install curl
 ```
 
-## openvpn-install
+## openvpn-install and add new users
 ```
 curl -O https://raw.githubusercontent.com/lazeyka/openvpn-install/master/openvpn-install.sh
 chmod +x openvpn-install.sh
 ./openvpn-install.sh
 ```
 
-## WireGuard-install
+## WireGuard-install and add new users
 ```
 curl -O https://raw.githubusercontent.com/lazeyka/wireguard-install/master/wireguard-install.sh
 chmod +x wireguard-install.sh
@@ -46,13 +46,13 @@ iptables-save > /etc/iptables/rules.v4
 reboot
 ```
 
-## Setup packets OpenVPN on router with OpenWRT
+## Setup packets OpenVPN on router with OpenWRT, if you want to use OpenVPN
 ```
 opkg update
 opkg install openvpn-openssl luci-app-openvpn
 ```
 
-## Setup packets WireGuard on router with OpenWRT
+## Setup packets WireGuard on router with OpenWRT, if you want to use WireGuard
 ```
 opkg update
 opkg install wireguard-tools luci-app-wireguard qrencode
