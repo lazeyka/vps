@@ -8,7 +8,7 @@ curl -O https://raw.githubusercontent.com/lazeyka/wireguard-install/master/wireg
 chmod +x wireguard-install.sh
 ./wireguard-install.sh
 
-# Отключение определения туннеля/Двусторонний пиннг (косвенный фактор)
+# Обход определения туннеля/Двусторонний пиннг (косвенный фактор)
 # Решение: отключить пинг на внешнем интерфейсе
 
 - a) на сервере смотрим 'имя интерфейса' с белым/реальным/ внешним IP, командой ifconfig (apt install net-tools)
