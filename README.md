@@ -1,12 +1,12 @@
 # vps
 
-curl -O https://raw.githubusercontent.com/lazeyka/openvpn-install/master/openvpn-install.sh
-chmod +x openvpn-install.sh
-./openvpn-install.sh
+- curl -O https://raw.githubusercontent.com/lazeyka/openvpn-install/master/openvpn-install.sh
+- chmod +x openvpn-install.sh
+- ./openvpn-install.sh
 
-curl -O https://raw.githubusercontent.com/lazeyka/wireguard-install/master/wireguard-install.sh
-chmod +x wireguard-install.sh
-./wireguard-install.sh
+- curl -O https://raw.githubusercontent.com/lazeyka/wireguard-install/master/wireguard-install.sh
+- chmod +x wireguard-install.sh
+- ./wireguard-install.sh
 
 # Обход определения туннеля/Двусторонний пиннг (косвенный фактор)
 ## Решение: отключить пинг на внешнем интерфейсе
