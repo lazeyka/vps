@@ -31,7 +31,7 @@ chmod +x wireguard-install.sh
 ./wireguard-install.sh
 ```
 
-## QR сode regeneration for the created client
+## QR сode regeneration for the WireGuard created client
 ```
 ls
 qrencode -t ansiutf8 < wg-client.conf
