@@ -1,5 +1,8 @@
 # vps
 
+## VPS hosting without personal data
+https://www.kamatera.com/express/compute/?tcampaign=35345_379441_VT131003&bta=35345&nci=5344&afp=VT131003&data1=VT131003
+
 # Link on video tutorial
 https://disk.yandex.com/d/9fl35rpQX8ofjw
 
