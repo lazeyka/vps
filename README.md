@@ -64,7 +64,7 @@ opkg update
 opkg install htop
 ```
 
-### Starting htop for see CPU load
+### Starting htop for see CPU load on router with OpenWRT
 ```
 htop
 ```
