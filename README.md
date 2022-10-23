@@ -44,3 +44,7 @@ https://disk.yandex.com/d/9fl35rpQX8ofjw
 - opkg install htop
 ### Starting htop for see CPU load
 - htop
+
+```properties
+npm run build
+```
