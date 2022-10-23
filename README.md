@@ -1,9 +1,11 @@
 # vps
 
+## openvpn-install
 - curl -O https://raw.githubusercontent.com/lazeyka/openvpn-install/master/openvpn-install.sh
 - chmod +x openvpn-install.sh
 - ./openvpn-install.sh
 
+## WireGuard-install
 - curl -O https://raw.githubusercontent.com/lazeyka/wireguard-install/master/wireguard-install.sh
 - chmod +x wireguard-install.sh
 - ./wireguard-install.sh
