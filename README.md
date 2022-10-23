@@ -5,52 +5,64 @@
 https://www.kamatera.com/express/compute/?tcampaign=35345_379441_VT131003&bta=35345&nci=5344&afp=VT131003&data1=VT131003
 ```
 
-```Link to video tutorial
+## Link to video tutorial
+```
 https://disk.yandex.com/d/9fl35rpQX8ofjw
 ```
 
-```Update VPS server
+## Update VPS server
+```
 apt update && apt upgrade -y
 ```
 
-```Setup necessary packets by need
+## Setup necessary packets by need
+```
 apt install curl
 ```
 
-```openvpn-install
+## openvpn-install
+```
 curl -O https://raw.githubusercontent.com/lazeyka/openvpn-install/master/openvpn-install.sh
 chmod +x openvpn-install.sh
 ./openvpn-install.sh
 ```
 
 ## WireGuard-install
-- curl -O https://raw.githubusercontent.com/lazeyka/wireguard-install/master/wireguard-install.sh
-- chmod +x wireguard-install.sh
-- ./wireguard-install.sh
+```
+curl -O https://raw.githubusercontent.com/lazeyka/wireguard-install/master/wireguard-install.sh
+chmod +x wireguard-install.sh
+./wireguard-install.sh
+```
 
 ## QR сode regeneration for the created client
-- ls
-- qrencode -t ansiutf8 < wg-client.conf
+```
+ls
+qrencode -t ansiutf8 < wg-client.conf
+```
 
 # Обход определения туннеля/Двусторонний пиннг (косвенный фактор)
 ## Решение: отключить пинг на внешнем интерфейсе
-
-- a) на сервере смотрим 'имя интерфейса' с белым/реальным/ внешним IP, командой ifconfig (apt install net-tools)
-- b) iptables -A INPUT -i'имя интерфейса' -p icmp -j DROP
-- c) apt update && apt install iptables-persistent
-- d) iptables-save > /etc/iptables/rules.v4
-- e) reboot
+### на сервере смотрим 'имя интерфейса' с белым/реальным/ внешним IP, командой ifconfig (apt install net-tools)
+```
+iptables -A INPUT -i'имя интерфейса' -p icmp -j DROP
+apt update && apt install iptables-persistent
+iptables-save > /etc/iptables/rules.v4
+reboot
+```
 
 ## Setup packets WireGuard on router with OpenWRT
-- opkg update
-- opkg install wireguard-tools luci-app-wireguard qrencode
+```
+opkg update
+opkg install wireguard-tools luci-app-wireguard qrencode
+```
 
 ## Setup packets on router with OpenWRT for see CPU load
-- opkg update
-- opkg install htop
-### Starting htop for see CPU load
-- htop
+```
+opkg update
+opkg install htop
+```
 
-```properties
-npm run build
+### Starting htop for see CPU load
+```
+htop
 ```
