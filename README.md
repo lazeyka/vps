@@ -70,6 +70,9 @@ htop
 ```
 
 ## OpenWRT - Change TTL (Time to Live)
+```
+This video will help to change the TTL value on OpenWRT.
+```
 https://disk.yandex.com/i/xTkBpkB49Vvu8g
 ```
 If you are using USB tethering, there is a specific TTL value that need to be configured. The common TTL value used by the mobile network operator is 65 while the default value on the computer is 128. We need to change this to have a working internet connection or to be able to use the hotspot. Changing TTL does not 100% give you unlimited hotspot with high speed but it depends on your network operator.  
